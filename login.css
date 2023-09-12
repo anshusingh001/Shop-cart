@@ -1,0 +1,79 @@
+/* *{
+    margin:0;
+    padding:0;
+    background:black;
+
+} */
+.container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:75%;
+    height:550px;
+    background:url('background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+.container .content{
+    width:50%;
+    height:100%;
+    color: aliceblue;
+    background: black;
+    position:absolute;
+    top:0;
+    left:0;
+    /* display:flex;
+    justify-content: space-between;
+    flex-direction: column; */
+
+
+}
+.container .sci-fi{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items:center;
+
+}
+.container .longrg-box{
+    position:absolute;
+    top:0;
+    right:0;
+    width:calc(100% -50%);
+    height:100%;
+    background: red;
+    color: white;
+
+}
+.container .logo{
+    font-size:30px;
+    margin:20px;
+
+}
+.sci-fi h2{
+    font-size:40px;
+
+}
+.sci-fi h2 span{
+    font-size: 25px;
+
+}
+.sci-fi p{
+    font-size:16px;
+    margin:20px 0;
+}
+.social-icons a i{
+    font-size: 22px;
+    color:white;
+    margin-right: 10px;
+    transition: .5s ease;
+
+}
+.social-icone a :hover i{
+    transform: scale(1.2);
+
+}
